@@ -27,14 +27,18 @@ footer{background-color: #3a92eb;
     color: white;
 }
 
-#footer-info  {
+#footer-info, #directions  {
    
     justify-content: space-evenly;
     text-align: center;
     
 }
 
-#footer-info h3 {
+#directions h3 {
+    padding-top: 15px;
+}
+
+#footer-info h3, #directions h3 {
    
     text-transform: uppercase;
 }
@@ -45,11 +49,13 @@ footer{background-color: #3a92eb;
 
     #footer-info  {
         display: flex;
-        justify-content: space-evenly;
+        justify-content:space-evenly;
         text-align: center;
         text-transform: uppercase;
     }
 
-
+.footer-cols {
+    width: 33%;
+}
 }
 
