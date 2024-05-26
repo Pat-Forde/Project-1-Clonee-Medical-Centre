@@ -31,10 +31,13 @@ footer{background-color: #3a92eb;
    
     justify-content: space-evenly;
     text-align: center;
-    text-transform: uppercase;
+    
 }
 
-
+#footer-info h3 {
+   
+    text-transform: uppercase;
+}
 
 
 /* Media query: tablets and larger (768px and up) */
