@@ -18,6 +18,7 @@ header {
 
 main {background-color: red;}
 
+/* Footer */
 
 footer{background-color: #3a92eb;
     font-family: "Fira Sans Condensed", sans-serif;
@@ -25,3 +26,27 @@ footer{background-color: #3a92eb;
     font-style: normal;
     color: white;
 }
+
+#footer-info  {
+   
+    justify-content: space-evenly;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    #footer-info  {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+
+}
+
