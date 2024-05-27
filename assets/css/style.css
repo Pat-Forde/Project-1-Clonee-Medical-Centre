@@ -12,9 +12,21 @@ body {
 
 
 header {
-    background-color: green;
+    background-color: #3a92eb;
     
 }
+
+/* Styling of logo text */
+#logo-text  {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
 
 main {background-color: red;}
 
