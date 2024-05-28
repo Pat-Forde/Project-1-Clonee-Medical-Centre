@@ -82,6 +82,11 @@ nav {
     color: #ffffff;
 }
 
+.active {
+    text-decoration: underline;
+    
+}
+
 
 /* padding top temporarily there to push the main down so it can be seen for the moment */
 main {
@@ -114,8 +119,14 @@ footer{background-color: #3a92eb;
 /* Centering h3 vertical padding for gap underneath and faint shadow to stand out  */
 footer h3 {
     
-    padding: 10px 4px;
+    padding: 10px;
     text-shadow: 0.5px 0.5px #0c0c0c;
+}
+
+/* Little white border to seperate footers - will be taken out on larger devices later on */
+.footer-cols {
+border-bottom: 1px solid #ffffff;
+padding-bottom: 6px;
 }
 
 #footer-info, #directions  {
@@ -152,7 +163,7 @@ footer h3 {
     padding: 2px;
     text-decoration: none;
     font-size: 1.2rem;
-    width: 33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    width: 33.3%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center; /* If you want the text to be centered */
     
   }
@@ -183,6 +194,7 @@ footer h3 {
 
 .footer-cols {
     width: 33%;
+    
 }
 
 /* Styling of logo text */
