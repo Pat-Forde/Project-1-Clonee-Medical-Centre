@@ -106,15 +106,28 @@ main {
 
 /* About Us Section */
 
-#about-us h1 {
+.content-header {
     text-align: center;
     padding-top: 10px;
     text-transform: uppercase;
-    font-size: 2.5rem;
-    
+    font-size: 2.5rem;  
 }
 
+#about-us {
+    display:flex;
+}
 
+#about-us > div {
+    width: 50%;
+}
+
+#test-div {
+    display:flex;
+}
+
+#test-div > div {
+    width: 33%;
+}
 
 /* Footer */
 
