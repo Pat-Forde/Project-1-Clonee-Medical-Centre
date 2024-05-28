@@ -61,6 +61,9 @@ nav {
     position: absolute;
     width: 100%;
     top: 100%;
+    background-color: #3a92eb;
+    left: 0;
+    padding: 0 2rem;
 }
 
 /* Nav toggle styling*/
@@ -81,7 +84,8 @@ nav {
 /* padding top temporarily there to push the main down so it can be seen for the moment */
 main {
     background-color: red;
-    padding-top: 150px;
+    padding-top: 40px;
+    
 }
 
 /* Footer */
@@ -119,6 +123,34 @@ footer h3 {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+/* display proper nav bar instead of toggle on larger screens */
+ nav {
+    display: block;
+    position: relative;
+    width: fit-content;
+ }
+
+ #links-menu {
+    display: flex;
+    font-size: 1.5rem;
+
+ }
+
+ .nav-toggle-label {
+    display: none;
+ }
+
+ #links-menu > li {
+    padding-left: 1rem;
+ }
+
+ main {
+    background-color: rgb(0, 255, 68);
+    padding-top: 115px;
+    
+}
+
 
     #footer-info  {
         display: flex;
