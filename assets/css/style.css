@@ -34,6 +34,7 @@ header {
     color: #ffffff;
     text-decoration: none;
     text-shadow: 0.5px 0.5px #0c0c0c;
+    font-size: 1.7rem;
 }
 
 header a {
@@ -62,10 +63,20 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle */
+/* Nav toggle styling*/
 #nav-toggle:checked~nav {
     display: block;
 }
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
 
 /* padding top temporarily there to push the main down so it can be seen for the moment */
 main {
@@ -118,6 +129,14 @@ footer h3 {
 
 .footer-cols {
     width: 33%;
+}
+
+/* Styling of logo text */
+#logo-text  {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0.5px 0.5px #0c0c0c;
+    font-size: 2.5rem;
 }
 }
 
