@@ -188,6 +188,11 @@ padding-bottom: 6px;
     text-transform: uppercase;
 }
 
+/* Contact Us Page Styles */
+
+#contact-form {
+    color: aquamarine;
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
