@@ -229,7 +229,24 @@ padding-bottom: 6px;
 
 
      
+/* Media query: tablets and larger (600px and up) */
+@media screen and (min-width: 600px) {
 
+    .label {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+      
+      .input-content {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+
+
+
+}
 
 
 
