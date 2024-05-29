@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 /* General styles */
 body {
     font-family: "Fira Sans Condensed", sans-serif;
@@ -104,6 +105,16 @@ main {
     
 }
 
+
+#heropic2 {
+    height: 250px;
+    background: url("../images/contact-us-1908763_640.png") no-repeat center center/cover;
+    position: relative;
+    object-fit: contain;
+    
+}
+
+
 /* About Us Section */
 
 /*Quick Info Boxes */
@@ -192,6 +203,12 @@ padding-bottom: 6px;
 
 
 
+
+
+#contact-us-heading h3, h2 {
+text-align: center;
+}
+
 /* Outer container styling */
 .outside-container {
     border-radius: 5px;
@@ -209,8 +226,25 @@ padding-bottom: 6px;
     resize: vertical;
   } 
 
+  label {
    
+   text-shadow: 0.5px 0.5px #0c0c0c;
+   
+   
+  }
+.label
+{
+    color: #ffffff;
+    margin-top: 4px;
+    padding: 8px 8px 8px 0;
+}
 
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 
@@ -219,12 +253,14 @@ padding-bottom: 6px;
       input[type=submit] {
         background-color: #ffffff;
         border: none;
+        border-radius: 5px;
         color: #3a92eb;
-        padding: 12px 20px;
+        padding: 10px 20px;
         text-decoration: none;
         margin: 4px 2px;
         cursor: pointer;
         float: right;
+        font-size: 20px;
       }
 
 
@@ -235,13 +271,13 @@ padding-bottom: 6px;
     .label {
         float: left;
         width: 25%;
-        margin-top: 6px;
+        margin-top: 3px;
       }
       
       .input-content {
         float: left;
         width: 75%;
-        margin-top: 6px;
+        margin-top: 3px;
       }
 
 
