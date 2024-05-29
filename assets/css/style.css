@@ -190,9 +190,48 @@ padding-bottom: 6px;
 
 /* Contact Us Page Styles */
 
-#contact-form {
-    color: aquamarine;
-}
+
+
+/* Outer container styling */
+.outside-container {
+    border-radius: 5px;
+    background-color: #3a92eb;
+    padding: 20px;
+  }
+
+   /* labels and inputs */
+
+   input[type=text], [type=email] , [type=tel], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d6f1f3;
+    border-radius: 4px;
+    resize: vertical;
+  } 
+
+   
+
+
+
+
+/* Submit button */
+
+      input[type=submit] {
+        background-color: #ffffff;
+        border: none;
+        color: #3a92eb;
+        padding: 12px 20px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        float: right;
+      }
+
+
+     
+
+
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
