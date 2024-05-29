@@ -106,6 +106,25 @@ main {
 
 /* About Us Section */
 
+/*Quick Info Boxes */
+
+#headlines {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#headlines div {
+
+
+max-width: 300px;
+padding: 12px;
+text-align: center;
+border: solid #3a92eb 3px;
+
+
+
+
+}
 .content-header {
     text-align: center;
     padding-top: 10px;
@@ -113,21 +132,6 @@ main {
     font-size: 2.5rem;  
 }
 
-#about-us {
-    display:flex;
-}
-
-#about-us > div {
-    width: 50%;
-}
-
-#test-div {
-    display:flex;
-}
-
-#test-div > div {
-    width: 33%;
-}
 
 /* Footer */
 
