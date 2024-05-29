@@ -24,7 +24,7 @@
         </label>
         <nav id="links-menu">
             <ul>
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="contactus.html" class="active">Contact Us</a></li>
                 <li><a href="services.html">Services</a></li>
             </ul>
@@ -38,30 +38,69 @@
         <!--Hero Image Section-->
         <section id="heropic">
 
-    </section>
+        </section>
 
-    <!--Form Begins-->
-<section id="contact-form">
-    <form method="POST" action="https://formdump.codeinstitute.net/">
-        <h2>Contact Us</h2>
-        <label for="first-name">First Name</label>
-                <input type="text" name="first_name" id="first-name" class="text-input" required>
-                <br>
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last_name" id="last-name" class="text-input" required>
-                <br>
-                <label for="email-address">Email Address</label>
-                <input type="email" name="email_address" id="email-address" class="text-input" required>
-                <br>
-                <label for="message">Your Message</label>
-                <textarea name="message" cols="70" rows="20" id="message" class="text-input" required></textarea>
-                <button type="submit">Send!</button>
+        <!--Form Begins-->
+        <section id="contact-form">
+            <form method="POST" action="https://formdump.codeinstitute.net/">
+                <h2>Contact Us</h2>
+
+                <!--Set up structure to allow form to stack or to sit side by side using css. Labels in one div and input in a seperate div-->
+                <div class="outside-container">
+                    <!--First Name-->
+                    <div class="row">
+                        <div class="label"><label for="first-name">First Name</label></div>
+                        <div class="input-content"><input type="text" name="first_name" id="first-name" class="text-input" required></div>
+                    </div>
+                    <!--Second Name-->
+                    <div class="row">
+                        <div class="label"><label for="last-name">Last Name</label></div>
+                        <div class="input-content"><input type="text" name="last_name" id="last-name" class="text-input" required></div>
+                    </div>
+                    <!--Phone-->
+                    <div class="row">
+                        <div class="label"><label for="phone-number">Phone Number</label></div>
+                        <div class="input-content"><input type="tel" name="phone-number" id="phone-number" class="number-input" required>
+                    </div>
+                    <!--Email Address-->
+                    <div class="row">
+                        <div class="label"><label for="email-address">Email Address</label></div>
+                        <div class="input-content"><input type="email" name="email_address" id="email-address" class="text-input" required></div>
+                    </div>
+                    <!--Name-->
+                    <div class="row">
+                        <div class="label"></div>
+                        <div class="input-content"></div>
+                    </div>
+                    <!--Long Message-->
+                    <div class="row">
+                        <div class="label"><label for="message">Your Message</label></div>
+                        <div class="input-content"><textarea name="message" style="height: 250px;" id="message" class="text-input" required></textarea></div>
+                    </div>
+
+                    <button type="submit">Send!</button>
 
 
 
 
-    </form>
-</section>
+
+                </div>
+
+
+                
+                
+                
+                
+                
+                
+                
+              
+
+
+
+
+            </form>
+        </section>
 
 
 
