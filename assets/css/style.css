@@ -105,10 +105,10 @@ main {
     
 }
 
-
+/* heropic for contact us page */
 #heropic2 {
-    height: 250px;
-    background: url("../images/contact-us-1908763_640.png") no-repeat center center/cover;
+    height: 350px;
+    background: url("../images/contactus.png") no-repeat center center/cover;
     position: relative;
     object-fit: contain;
     
@@ -201,6 +201,14 @@ padding-bottom: 6px;
 
 /* Contact Us Page Styles */
 
+/* heropic for contact us page */
+#heropic2 {
+    height: 450px;
+    background: url("../images/contactus.png") no-repeat center center/cover;
+    position: relative;
+    width: 100%;
+    
+}
 
 
 
