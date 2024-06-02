@@ -1,5 +1,22 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+
+# Clonee Medical Centre
+
+This website is designed for a real world doctors surgery based in Clonee Co. Meath. They currently have no web presence other than a Facebook page. This site will provide an overview of relevant information that a new or existing client may look for as well as a contact avenue for out of hours queries. This will save time, both for the patient and for the surgery whilst cutting down on admin time spent answering phones for simple queries.
+
+# Features
+
+
+
+
+
+
+
+
+
+
+
 Welcome Pat Forde,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
