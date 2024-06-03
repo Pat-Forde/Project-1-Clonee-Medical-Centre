@@ -210,6 +210,10 @@ padding-bottom: 6px;
     
 }
 
+#contact-form {
+    margin-top: 10px;
+}
+
 /* Stop link styling on phone number displays */
 #contact-us-heading a, #footer-info a {
     text-decoration: none;
@@ -280,6 +284,27 @@ text-decoration: none;
         font-weight: 700;
         
       }
+
+
+/* Services Page */
+
+#services-box {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+
+.picture {
+    background-color: red;
+    
+}
+
+.services-list {
+    background-color: green;
+}
+
+
 
 
      
