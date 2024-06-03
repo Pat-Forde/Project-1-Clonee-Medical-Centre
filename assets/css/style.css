@@ -215,6 +215,9 @@ padding-bottom: 6px;
 
 #contact-us-heading h3, h2 {
 text-align: center;
+color: #ffffff;
+text-shadow: 0.5px 0.5px #0c0c0c;
+padding-bottom: 8px;
 }
 
 /* Outer container styling */
@@ -245,6 +248,7 @@ text-align: center;
     color: #ffffff;
     margin-top: 4px;
     padding: 8px 8px 8px 0;
+    font-size: 1.2rem;
 }
 
 
@@ -269,6 +273,8 @@ text-align: center;
         cursor: pointer;
         float: right;
         font-size: 20px;
+        font-weight: 700;
+        
       }
 
 
@@ -351,9 +357,20 @@ text-align: center;
     text-decoration: none;
     text-shadow: 0.5px 0.5px #0c0c0c;
     font-size: 2.5rem;
+    
 }
 
+/* Styling of contact us box heading when screen wider*/
 
+#contact-us-heading h3, h2 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px #0c0c0c;
+    padding-bottom: 8px;
+    font-size: 1.8rem;
+    
+
+    }
 
 
 }
