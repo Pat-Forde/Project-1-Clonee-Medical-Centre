@@ -7,6 +7,18 @@ This website is designed for a real world doctors surgery based in Clonee Co. Me
 
 # Features
 
+Navigation bar across all pages of the site for ease of naviagation and 
+
+
+# Credits
+
+Main page picture.
+Contact us page picture.
+Used technique learned from W3 schools to fix bug where the contact us form was overflowing into the header and footer.
+
+
+# Bugs 
+
 
 
 

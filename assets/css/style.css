@@ -210,14 +210,18 @@ padding-bottom: 6px;
     
 }
 
-
-
+/* Stop link styling on phone number displays */
+#contact-us-heading a, #footer-info a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 #contact-us-heading h3, h2 {
 text-align: center;
 color: #ffffff;
 text-shadow: 0.5px 0.5px #0c0c0c;
 padding-bottom: 8px;
+text-decoration: none;
 }
 
 /* Outer container styling */
