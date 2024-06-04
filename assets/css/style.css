@@ -295,18 +295,11 @@ text-decoration: none;
 
 }
 
-.services-header h2 {
+.services-header {
     background-color: #3a92eb;
 }
 
-.picture {
-    background-color: red;
-    min-width: 250px;
 
-       
-    
-    
-}
 
 .picture img {
     
@@ -315,7 +308,7 @@ text-decoration: none;
 }
 
 .services-list {
-    background-color: green;
+   
     max-width: 350px;
 }
 
