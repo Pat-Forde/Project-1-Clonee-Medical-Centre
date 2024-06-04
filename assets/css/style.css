@@ -295,13 +295,28 @@ text-decoration: none;
 
 }
 
+.services-header h2 {
+    background-color: #3a92eb;
+}
+
 .picture {
     background-color: red;
+    min-width: 250px;
+
+       
     
+    
+}
+
+.picture img {
+    
+    object-fit:cover;
+    max-width: 350px;
 }
 
 .services-list {
     background-color: green;
+    max-width: 350px;
 }
 
 
