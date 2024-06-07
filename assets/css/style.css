@@ -105,6 +105,11 @@ main {
     
 }
 
+#heropic h2 {
+    display: none;
+}
+
+
 /* heropic for contact us page */
 #heropic2 {
     height: 350px;
