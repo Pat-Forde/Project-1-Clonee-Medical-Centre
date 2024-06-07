@@ -105,7 +105,7 @@ main {
     
 }
 
-#heropic h2 {
+#heropic h2, #heropic2 h2, #services-box h2 {
     display: none;
 }
 

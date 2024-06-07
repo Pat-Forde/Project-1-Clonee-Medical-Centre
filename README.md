@@ -29,6 +29,7 @@ Image not displaying on services page  - Fixed
 # Validation Testing 
 W3.org validator contact us page missing div closing tag - Fixed
 Validator giving error for google maps format.
+Added non displayed headers in the hero pics sections to improve accessibillity.
 
 # Lighthouse Testing
 The initial lighthouse accessibillity score was in the low 80s and identified that the colour scheme used did not contrast enough. As a result I changed the colour scheme to a darker shade of blue. Lighthouse also identified a missing title in the google map iframe which I added. Lastly lighthouse suggested an issue with the order on the page of h1,h2 headers etc which was also amended to give a 100% score. 
