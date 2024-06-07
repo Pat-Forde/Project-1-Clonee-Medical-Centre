@@ -26,6 +26,13 @@ Contact form overflowing into header and footer - Fixed
 Image not displaying on services page  - Fixed
 
 
+# Validation Testing 
+W3.org validator contact us page missing div closing tag - Fixed
+Validator giving error for google maps format.
+
+# Lighthouse Testing
+The initial lighthouse accessibillity score was in the low 80s and identified that the colour scheme used did not contrast enough. As a result I changed the colour scheme to a darker shade of blue. 
+
 
 
 
