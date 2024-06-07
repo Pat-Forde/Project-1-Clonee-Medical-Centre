@@ -1,9 +1,12 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Clonee Medical Centre Logo](assets/images/cloneemedicalcenterlogosmall.jpg)
 
 
 # Clonee Medical Centre
 
 This website is designed for a real world doctors surgery based in Clonee Co. Meath. They currently have no web presence other than a Facebook page. This site will provide an overview of relevant information that a new or existing client may look for as well as a contact avenue for out of hours queries. This will save time, both for the patient and for the surgery whilst cutting down on admin time spent answering phones for simple queries.
+
+UX Benefits
+
 
 # Features
 
@@ -12,14 +15,15 @@ Navigation bar across all pages of the site for ease of naviagation and
 
 # Credits
 
-Main page picture.
-Contact us page picture.
+Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre
+Contact us page picture - modified from a picture sourced from pexels.com.
 Used technique learned from W3 schools to fix bug where the contact us form was overflowing into the header and footer.
 
 
 # Bugs 
 
-
+Contact form overflowing into header and footer - Fixed
+Image not displaying on services page  - Fixed
 
 
 
