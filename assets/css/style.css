@@ -165,6 +165,11 @@ flex-grow: 1;
 
 /* Footer */
 
+/* Using CSS to set width of google map because html validation fails if set width=100% within the iframe itself */
+#googlemap {
+    width:100%
+}
+
 footer{
     background-color: #0F53A9;
     font-family: "Fira Sans Condensed", sans-serif;
