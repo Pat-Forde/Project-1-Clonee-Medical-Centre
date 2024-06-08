@@ -3,15 +3,17 @@
 
 # Clonee Medical Centre
 
-This website is designed for a real world doctors surgery based in Clonee Co. Meath. 
+This website is designed for a real world doctors practice based in Clonee Co. Meath. 
 
-![Clonee Medical Centre](assets/images/responsivescreenshot.png)
-
-
+![Clonee Medical Centre](assets/images/responsivescreenshots.png)
 
 
+They currently have no web presence other than a Facebook page. I decided to build a website for this practice as my first project.
 
-They currently have no web presence other than a Facebook page. This site will provide an overview of relevant information that a new or existing client may look for as well as a contact avenue for out of hours queries. This will save time, both for the patient and for the surgery whilst cutting down on admin time spent answering phones for simple queries.
+## UX
+
+
+This site will provide an overview of relevant information that a new or existing client may look for as well as a contact avenue for out of hours queries. This will save time, both for the patient and for the surgery whilst cutting down on admin time spent answering phones for simple queries.
 
 UX Benefits
 
