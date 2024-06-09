@@ -48,6 +48,7 @@ header ul {
 }
 #links-menu {
     list-style-type: none;
+     
 }
 
 
@@ -356,7 +357,7 @@ text-decoration: none;
  nav {
     display: inline;
     position: relative;
-    width: 47%;
+    width: 47%
    
     
  }
