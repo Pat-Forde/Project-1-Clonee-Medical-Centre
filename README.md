@@ -14,6 +14,15 @@ They currently have no web presence other than a Facebook page. I decided to bui
 
 This site will provide an overview of relevant information that a new or existing client may look for as well as a contact avenue for out of hours queries. This will save time, both for the patient and for the surgery whilst cutting down on admin time spent answering phones for simple queries.
 
+## Design and colour scheme
+
+My initial idea was to take Clonee Medical Centers existing logo and use the colours from this as a pallet for the site. However lighthouse testing gave this scheme a poor accessibillity mark so the main colour was changed to a darker shade of blue. 
+
+Original:
+![Original Colour Scheme](assets/images/readme-images/original-colour-scheme.png)
+Final:
+![Final Colour Scheme](assets/images/readme-images/final-colour-scheme.png)
+
 ## Features
 
 ### index.html
@@ -90,14 +99,24 @@ Used technique learned from W3 schools to fix bug where the contact us form was 
 Contact form overflowing into header and footer - Fixed
 Image not displaying on services page  - Fixed
 
+# Testing
 
-# Validation Testing 
+## Site Testing
+
+A comprehensive site test was undertaken.
++ All links checked and working correctly.
++ All pages viewed using chromes developer tools in fully resposnsive mode. All pages behaved as expected with flex and media queries working well to amend output depending on screen size.
++ Contact us form correctly collects information and currently delivers to code institutes form dump page.
+
+## Validation Testing 
 W3.org validator contact us page missing div closing tag - Fixed
-Validator giving error for google maps format.
-Added non displayed headers in the hero pics sections to improve accessibillity.
+Validator giving error for google maps iframe width - I had set width to 100% in the iframe which, although displayed at full width on all browsers failed html validation. I resolved this by placing the iframe in a div and used css to set the div to 100% width instead.
 
-# Lighthouse Testing
+
+## Lighthouse Testing
 The initial lighthouse accessibillity score was in the low 80s and identified that the colour scheme used did not contrast enough. As a result I changed the colour scheme to a darker shade of blue. Lighthouse also identified a missing title in the google map iframe which I added. Lastly lighthouse suggested an issue with the order on the page of h1,h2 headers etc which was also amended to give a 100% score. 
+Added non displayed headers in the hero pics sections to improve accessibillity.
+Added meta descriptions.
 
 
 
