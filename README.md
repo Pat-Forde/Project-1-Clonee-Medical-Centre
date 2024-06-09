@@ -30,7 +30,7 @@ This site will provide an overview of relevant information that a new or existin
 
 ![Main Hero Image](assets/images/readme-images/main-hero.png)
 
-This bright and eyecatching image incorporates the existing logo for Clonee Medical Centre alongside an image of a doctors folded arms holding a stethoscope. The image is designed to immediately convey who we are and what we do.
+This bright and eyecatching image incorporates the existing logo for Clonee Medical Centre alongside an image of a doctors folded arms holding a stethoscope. The image is designed to immediately convey who we are and what we do. On mobile devices an alternative image of just the logo is displayed.
 
 #### Quick Information Section
 ![Quick Information](assets/images/readme-images/quick-info-section.png)
@@ -46,6 +46,37 @@ This bright and eyecatching image incorporates the existing logo for Clonee Medi
 + Features opening hours, phone number and address.
 + Phone number is clickable and will prompt to call or open dialer program from users device. 
 + Icons on each title from font awesome.
+
+### contactus.html
+
+#### Contact ss form hero image.
+
+![Contact Us Form Hero Image](assets/images/readme-images/contact-us-hero.png)
+
+I chose a picture from pexels.com of a doctors contact form and added the text of Clonee Medical Center to the form. This image clearly demonstrates what this page functions as and I felt was a nice link between old technology (paper and pen) and newer digital technology.
+
+#### Contact Form
+
+![Contact Us Form](assets/images/readme-images/contact-form.png)
+
++ Uses flex so that the form stacks on itself on narrower devices.
++ Currently the form sends the user to a code institute confirmation page to confirm form submission. 
+
+### services.html
+#### Services section
+
+![Services](assets/images/readme-images/services.png)
+
+A page listing the main current services offered by Clonee Medical Center. Image of a sick teddy bear used to convey a caring light touch. 
+
+
+# Future development
+
+I would add the following to future deployments:
++ Repcaptcha or similar to contact form to reduce risk of spam returns. This would require javascript not in the scope of the current project.
++ Google map currently uses an iframe from maps.ie which is giving a warning for third party cookies when checked using Lighthouse. I would amend this to use Googlemaps API.
+
+
 
 # Credits
 
