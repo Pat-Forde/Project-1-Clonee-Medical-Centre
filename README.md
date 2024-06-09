@@ -58,7 +58,7 @@ This bright and eyecatching image incorporates the existing logo for Clonee Medi
 
 ### contactus.html
 
-#### Contact ss form hero image.
+#### Contact us form hero image.
 
 ![Contact Us Form Hero Image](assets/images/readme-images/contact-us-hero.png)
 
@@ -78,6 +78,10 @@ I chose a picture from pexels.com of a doctors contact form and added the text o
 
 A page listing the main current services offered by Clonee Medical Center. Image of a sick teddy bear used to convey a caring light touch. 
 
+Same hero picture used here as on main page as it fits equally well and is consistent.
+
+
+
 
 # Future development
 
@@ -96,7 +100,7 @@ A comprehensive site test was undertaken.
 + Contact us form correctly collects information and currently delivers to code institutes form dump page.
 
 ## Validation Testing 
-W3.org validator contact us page missing div closing tag - Fixed
+W3.org validator contact us page missing div closing tag - Fixed  
 Validator giving error for google maps iframe width - I had set width to 100% in the iframe which, although displayed at full width on all browsers failed html validation. I resolved this by placing the iframe in a div and used css to set the div to 100% width instead.
 
 All pages now pass HTML and CSS Validation:
@@ -130,15 +134,16 @@ All pages were missing a meta description. Added to achieve 100% SEO score.
 Best practices score is marked down to 78% due to the presence of third party cookies in the google maps iframe. This can be resolved by replacing the iframe with googles own API which uses javascript that is beyond the scope of this project. 
 
 
+# Bugs 
+
+Contact form overflowing into header and footer - Fixed  
+Image not displaying on services page  - Fixed
+
 # Credits
 
-Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre.
-Contact us page picture - modified from a picture sourced from pexels.com.
-Used technique learned from W3 schools to fix bug where the contact us form was overflowing into the header and footer.
+Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre.  
+Contact us page picture - modified from a picture sourced from pexels.com.  
+Used technique learned from W3 schools to fix bug where the contact us form was overflowing into the header and footer.  
 Nav bar uses a technique from Code Institutes love running project.
 
 
-# Bugs 
-
-Contact form overflowing into header and footer - Fixed
-Image not displaying on services page  - Fixed
