@@ -19,7 +19,7 @@ This site will provide an overview of relevant information that a new or existin
 My initial idea was to take Clonee Medical Centers existing logo and use the colours from this as a pallet for the site using a clear white background with navigation bars, header backgrounds etc being the logo colour. However lighthouse testing gave this scheme a poor accessibillity mark so the main colour was changed to a darker shade of blue. 
 
 Original:  
-![Original Colour Scheme](assets/images/readme-images/original-colour-scheme.png)
+![Original Colour Scheme](assets/images/readme-images/original-colour-scheme.png)  
 Final:  
 ![Final Colour Scheme](assets/images/readme-images/final-colour-scheme.png)
 
@@ -102,7 +102,7 @@ Validator giving error for google maps iframe width - I had set width to 100% in
 All pages now pass HTML and CSS Validation:
 
 - HTML
-  - No errors as per W3C Validator
+  - No errors as per W3C Validator  
   Home Page: [W3C validator Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Findex.html)  
   Contact Us Page: [W3C validator Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fcontactus.html)  
   Services Page: [W3C validator Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fservices.html)  
