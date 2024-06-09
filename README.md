@@ -16,7 +16,7 @@ This site will provide an overview of relevant information that a new or existin
 
 ## Design and colour scheme
 
-My initial idea was to take Clonee Medical Centers existing logo and use the colours from this as a pallet for the site. However lighthouse testing gave this scheme a poor accessibillity mark so the main colour was changed to a darker shade of blue. 
+My initial idea was to take Clonee Medical Centers existing logo and use the colours from this as a pallet for the site using a clear white background with navigation bars, header backgrounds etc being the logo colour. However lighthouse testing gave this scheme a poor accessibillity mark so the main colour was changed to a darker shade of blue. 
 
 Original:
 ![Original Colour Scheme](assets/images/readme-images/original-colour-scheme.png)
@@ -86,19 +86,6 @@ I would add the following to future deployments:
 + Google map currently uses an iframe from maps.ie which is giving a warning for third party cookies when checked using Lighthouse. I would amend this to use Googlemaps API.
 
 
-
-# Credits
-
-Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre
-Contact us page picture - modified from a picture sourced from pexels.com.
-Used technique learned from W3 schools to fix bug where the contact us form was overflowing into the header and footer.
-
-
-# Bugs 
-
-Contact form overflowing into header and footer - Fixed
-Image not displaying on services page  - Fixed
-
 # Testing
 
 ## Site Testing
@@ -112,11 +99,46 @@ A comprehensive site test was undertaken.
 W3.org validator contact us page missing div closing tag - Fixed
 Validator giving error for google maps iframe width - I had set width to 100% in the iframe which, although displayed at full width on all browsers failed html validation. I resolved this by placing the iframe in a div and used css to set the div to 100% width instead.
 
+All pages now pass HTML and CSS Validation:
+
+- HTML
+  - No errors as per W3C Validator
+  Home Page: [W3C validator Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Findex.html)
+  Contact Us Page: [W3C validator Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fcontactus.html)
+  Services Page: [W3C validator Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fservices.html)
+
+- CSS
+  - No errors as per [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 ## Lighthouse Testing
-The initial lighthouse accessibillity score was in the low 80s and identified that the colour scheme used did not contrast enough. As a result I changed the colour scheme to a darker shade of blue. Lighthouse also identified a missing title in the google map iframe which I added. Lastly lighthouse suggested an issue with the order on the page of h1,h2 headers etc which was also amended to give a 100% score. 
-Added non displayed headers in the hero pics sections to improve accessibillity.
-Added meta descriptions.
+
+### Performance
+
+All pages score between 95% - 98%% each time the performance test has been undertaken. Changing the format of some of the images would bring this to 100%.
+
+### Accessibillity
+
+The initial lighthouse accessibillity score was in the low 80s and identified that the colour scheme used did not contrast enough. As a result I changed the colour scheme to a darker shade of blue. Lighthouse also identified a missing title in the google map iframe which I added. Added non displayed headers in the hero pics sections as non identified sections were flagged as bringing the score down  Lastly lighthouse suggested an issue with the order on the page of h1,h2 headers etc which was also amended to give a 100% score. 
+
+### SEO Optimisation
+
+All pages were missing a meta description. Added to achieve 100% SEO score.
+
+### Best Practices
+
+Best practices score is marked down to 78% due to the presence of third party cookies in the google maps iframe. This can be resolved by replacing the iframe with googles own API which uses javascript that is beyond the scope of this project. 
 
 
+# Credits
 
+Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre.
+Contact us page picture - modified from a picture sourced from pexels.com.
+Used technique learned from W3 schools to fix bug where the contact us form was overflowing into the header and footer.
+Nav bar uses a technique from Code Institutes love running project.
+
+
+# Bugs 
+
+Contact form overflowing into header and footer - Fixed
+Image not displaying on services page  - Fixed
