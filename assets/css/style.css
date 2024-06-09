@@ -244,7 +244,7 @@ text-decoration: none;
 
    /* labels and inputs */
 
-   input[type=text], [type=email] , [type=tel], textarea {
+   input[type=text], [type=email] , [type=tel], [type=number], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #d6f1f3;
