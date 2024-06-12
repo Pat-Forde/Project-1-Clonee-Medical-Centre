@@ -146,5 +146,7 @@ Main page picture made from picture sourced from pexels.com blended with actual 
 Contact us page picture - modified from a picture sourced from pexels.com.  
 Used technique learned from W3 schools to fix bug where the contact us form was overflowing into the header and footer.  
 Nav bar uses a technique from Code Institutes love running project.
+Icons sourced from FontAwesome.
+Font supplied by Google Fonts
 
 
