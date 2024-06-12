@@ -16,7 +16,7 @@ body {
     font-style: normal;
   }
 
-  header {
+header {
     background-color: #0F53A9;
     position: fixed;
     width: 100%;
@@ -25,22 +25,10 @@ body {
     justify-content: space-between;
     align-items: baseline;
     z-index: 99;
+    
+    
 }
 
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#links-menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
-}
-
-#links-menu>li {
-    margin-bottom: 1em;
-}
 /* Styling of logo text */
 #logo-text  {
     color: #ffffff;
@@ -366,22 +354,24 @@ text-decoration: none;
 @media screen and (min-width: 768px) {
 
 /* display proper nav bar instead of toggle on larger screens */
-nav {
-    display: block;
+ nav {
+    display: inline;
     position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-    font-size: 1.1rem;
-}
+    width: 47%;
+   
+    
+ }
 
-#links-menu {
-    display: flex;
-}
+ nav a {
+    float: left;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    width: 33.3%; 
+    text-align: center; 
+    
+  }
 
-#links-menu>li {
-    padding-left: 1rem;
-}
 
 
  .nav-toggle-label {

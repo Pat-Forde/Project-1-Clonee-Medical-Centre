@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Clonee Medical Centre provides comprehensive healthcare services in the Dublin 15 and Meath area. We are dedicated to providing personalised care, from routine check-ups to specialised treatments. Schedule your appointment online or contact us today for quality healthcare you can rely on.">
     <title>Clonee Medical Centre</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style3.css">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
@@ -14,20 +14,27 @@
 </head>
 
 <body>
-    <!--Header Section-->
+    <!--Header Section
+    Header is made up of a H2 and an unordered list with a nav id of "links-menu"-->
     <header>
         <a href="index.html">
             <h2 id="logo-text">Clonee Medical Centre</h2>
         </a>
+
+
+        <!--This has to stay outside of the nav so it appears on narrower screens (display of nav to none on CSS when screen is wider)-->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
             <i class="fa-solid fa-bars"></i>
         </label>
-        <nav id="links-menu">
-            <ul>
+        <nav>
+            <ul id="menu">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="contactus.html">Contact Us</a></li>
                 <li><a href="services.html">Services</a></li>
+                <li><a href="services.html">Sum Up Link</a></li>
+                <li><a href="services.html">More Info</a></li>
+                
                 
             </ul>
         </nav>
