@@ -136,8 +136,9 @@ Best practices score is marked down to 78% due to the presence of third party co
 
 # Bugs 
 
-Contact form overflowing into header and footer - Fixed  
-Image not displaying on services page  - Fixed
++ Contact form overflowing into header and footer - Fixed  
++ Image not displaying on services page  - Fixed
++ Header menu bar was not displaying properly on full screens. Originally I had gotten around this by styling a fixed width header of 47% for larger screens. After a lot of testing and comparing with the love running project I realised that I had an error where I had allocated an ID to the nav bar itself rather than to the UL, and when the site was not acting as expected had made multiple alterations to the code to get it to display as I wanted. Header css was rewritten - Fixed 
 
 # Credits
 

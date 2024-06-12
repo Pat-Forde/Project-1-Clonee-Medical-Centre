@@ -377,10 +377,11 @@ nav {
 
 #links-menu {
     display: flex;
+   
 }
 
 #links-menu>li {
-    padding-left: 1rem;
+    padding-left: 3rem;
 }
 
 
@@ -388,9 +389,6 @@ nav {
     display: none;
  }
 
- #links-menu > li {
-    padding-left: 1rem;
- }
 
  main {
     
