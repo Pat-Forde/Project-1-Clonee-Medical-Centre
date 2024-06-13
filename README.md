@@ -5,7 +5,7 @@
 
 This website is designed for a real world doctors practice based in Clonee Co. Meath. 
 
-![Clonee Medical Centre](assets/images/responsivescreenshots.png)
+![Clonee Medical Centre](assets/images/readme-images/responsivescreenshots.png)
 
 
 They currently have no web presence other than a Facebook page. I decided to build a website for this practice.
@@ -109,7 +109,7 @@ All pages now pass HTML and CSS Validation:
   - No errors as per W3C Validator  
   Home Page: [W3C validator Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Findex.html)  
   Contact Us Page: [W3C validator Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fcontactus.html)  
-  Services Page: [W3C validator Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fservices.html)  
+  Services Page: [W3C validator Services Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fservices.html)  
 
 - CSS
   - No errors as per [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
