@@ -447,11 +447,12 @@ input[type=submit] {
     /* Uses alternative larger image with more content on larger screens */
 
   #heropic {
-        height: 350px;
+        height: 320px;
         width: 100%;
         background: url("../images/doctorheroimage.png") no-repeat center center/cover;
         position: relative;
         object-fit: contain;
+        
         
 
 
