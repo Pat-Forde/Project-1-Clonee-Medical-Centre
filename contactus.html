@@ -58,32 +58,33 @@
                     <div class="row">
                         <div class="label"><label for="first-name">First Name</label></div>
                         <div class="input-content"><input type="text" name="first_name" id="first-name"
-                                class="text-input" required></div>
+                                class="text-input" required minlength="2"  required></div>
                     </div>
                     <!--Second Name-->
                     <div class="row">
                         <div class="label"><label for="last-name">Last Name</label></div>
                         <div class="input-content"><input type="text" name="last_name" id="last-name" class="text-input"
-                                required></div>
+                               required minlength="2"></div>
                     </div>
                     <!--Phone-->
                     <div class="row">
                         <div class="label"><label for="phone-number">Phone Number</label></div>
+                        <!--Check to validate phone number, begin with 0 then between 6 and 9 numbers after-->
                         <div class="input-content"><input type="tel" name="phone-number" id="phone-number"
-                                class="number-input" required>
+                                class="number-input" pattern="[0][0-9]{6,9}$" title ="Please enter a valid phone number beginning with 0 and containing no symptoms">
                         </div>
                         <!--Email Address-->
                         <div class="row">
                             <div class="label"><label for="email-address">Email</label></div>
                             <div class="input-content"><input type="email" name="email_address" id="email-address"
-                                    class="text-input" required></div>
+                                    class="text-input" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title = "Please enter a valid email address"></div>
                         </div>
                         
                         <!--Long Message-->
                         <div class="row">
                             <div class="label"><label for="message">Your Message</label></div>
                             <div class="input-content"><textarea name="message" style="height: 250px;" id="message"
-                                    class="text-input" required></textarea></div>
+                                    class="text-input" required minlength="10"></textarea></div>
                         </div>
 
                         <input type="submit" value="Send">
