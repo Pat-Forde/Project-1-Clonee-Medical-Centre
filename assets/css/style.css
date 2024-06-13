@@ -336,21 +336,6 @@ input[type=submit] {
    color: #ffffff;
    padding: 4px 9px;
    margin: 2px;
-  
-
-}
-
-
-
-@keyframes slide-right {
-    from {
-       margin-left: -500px;
-    }
-
-    to {
-       margin-left: 0%;
-    }
-    
 }
 
 .services-list ul{
@@ -452,10 +437,8 @@ input[type=submit] {
         background: url("../images/doctorheroimage.png") no-repeat center center/cover;
         position: relative;
         object-fit: contain;
-        
-        
-
-
+    }
+           
     .picture img {
         max-width: 380px;
         align-content: center;
@@ -467,10 +450,10 @@ input[type=submit] {
         text-transform: capitalize;
         text-align: center;
         font-size: 1.2rem;
-        
         margin-top: 5px;
         padding: 6px;
     }
+    
 }
 
 /* Media query: tablets and larger (968px and up) */
@@ -486,7 +469,6 @@ input[type=submit] {
         background: url("../images/doctorheroimage.png") no-repeat center center/cover;
         position: relative;
         object-fit: contain;
-        
     }
 
     #logo-text {
@@ -499,9 +481,6 @@ input[type=submit] {
     .picture img {
         max-width: 580px;
         margin-top: -5px;
-       
     }
-    
-
 }
 
