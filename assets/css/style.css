@@ -104,7 +104,7 @@ nav {
 
 /* padding so main content is pushed under header */
 main {
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 /* hero pic just logo appearing on smaller screens */
@@ -352,7 +352,13 @@ input[type=submit] {
 }
 
 
-
+/* Media query: narrow screens (334px and below) */
+@media screen and (max-width: 334px) {
+    /* padding so main content is pushed under header - header logo text wraps onto second line at 334px so more padding required */
+    main {
+    padding-top: 80px;
+    }
+}
 
 
 /* Media query: tablets and larger (600px and up) */
@@ -373,8 +379,6 @@ input[type=submit] {
 
 
 }
-
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -406,7 +410,7 @@ input[type=submit] {
 
     main {
 
-        padding-top: 115px;
+        padding-top: 69px;
 
     }
 
@@ -428,7 +432,7 @@ input[type=submit] {
         color: #ffffff;
         text-decoration: none;
         text-shadow: 0.5px 0.5px #0c0c0c;
-        font-size: 2.5rem;
+        font-size: 2rem;
 
     }
 
@@ -445,6 +449,17 @@ input[type=submit] {
 
     }
 
+     /* hero section */
+
+    /* Uses alternative larger image with more content on larger screens */
+  #heropic {
+        height: 350px;
+        width: 100%;
+        background: url("../images/doctorheroimage.png") no-repeat center center/cover;
+        position: relative;
+        object-fit: contain;
+    }
+
 
 }
 
@@ -452,7 +467,7 @@ input[type=submit] {
 @media screen and (min-width: 968px) {
     /* hero section */
 
-    /* Uses alternative larger image with more content on larger screens */
+    /* Uses alternative larger image with more content and height on larger screens */
 
     #heropic {
         height: 450px;
@@ -461,6 +476,12 @@ input[type=submit] {
         position: relative;
         object-fit: contain;
     }
+    #logo-text {
+        color: #ffffff;
+        text-decoration: none;
+        text-shadow: 0.5px 0.5px #0c0c0c;
+        font-size: 2.5rem;
 
+    }
 
 }
