@@ -111,7 +111,7 @@ main {
 #heropic {
     height: 350px;
     width: 100%;
-    background: url("../images/cloneemedicalcenterlogo.jpg") no-repeat center center/cover;
+    background: url("../images/cloneemedicalcenterlogo.png") no-repeat center center/cover;
     position: relative;
     object-fit: contain;
 }
