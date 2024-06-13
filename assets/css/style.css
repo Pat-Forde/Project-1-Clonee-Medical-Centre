@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 
-
 /* General styles */
 body {
     font-family: "Fira Sans Condensed", sans-serif;
@@ -43,6 +42,7 @@ header a {
 }
 
 /* Styling of logo text */
+
 #logo-text {
     color: #ffffff;
     text-decoration: none;
@@ -56,15 +56,12 @@ header a {
 }
 
 header ul {
-
     list-style-type: none;
 }
 
 #links-menu {
     list-style-type: none;
-
 }
-
 
 nav a {
     text-decoration: none;
@@ -72,6 +69,7 @@ nav a {
 }
 
 /* Making the nav bar toggle */
+
 nav {
     display: none;
     position: absolute;
@@ -83,6 +81,7 @@ nav {
 }
 
 /* Nav toggle styling*/
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -115,7 +114,6 @@ main {
     background: url("../images/cloneemedicalcenterlogo.jpg") no-repeat center center/cover;
     position: relative;
     object-fit: contain;
-
 }
 
 /* These headers are not actually displayed on the page but are present for SEO purposes */
@@ -126,16 +124,14 @@ main {
     display: none;
 }
 
-
 /* heropic for contact us page */
+
 #heropic2 {
     height: 350px;
     background: url("../images/contactus.png") no-repeat center center/cover;
     position: relative;
     object-fit: contain;
-
 }
-
 
 /* About Us Section */
 
@@ -147,7 +143,6 @@ main {
 }
 
 #headlines div {
-
     padding: 12px;
     text-align: center;
     border: solid #0F53A9 3.5px;
@@ -155,7 +150,6 @@ main {
     margin: 2px;
     flex-basis: 200px;
     flex-grow: 1;
-
 }
 
 #headlines h3 {
@@ -165,7 +159,6 @@ main {
     text-shadow: 0.5px 0.5px #0c0c0c;
     padding: 15px 0;
 }
-
 
 .content-header {
     text-align: center;
@@ -179,10 +172,10 @@ main {
     text-shadow: 0.5px 0.5px #0c0c0c;
 }
 
-
 /* Footer */
 
 /* Using CSS to set width of google map because html validation fails if set width=100% within the iframe itself */
+
 #googlemap {
     width: 100%
 }
@@ -197,6 +190,7 @@ footer {
 }
 
 /* Centering h3 vertical padding for gap underneath and faint shadow to stand out  */
+
 footer h3 {
 
     padding: 10px;
@@ -204,6 +198,7 @@ footer h3 {
 }
 
 /* Little white border to seperate footers - will be taken out on larger devices later on */
+
 .footer-cols {
     border-bottom: 1px solid #ffffff;
     padding-bottom: 6px;
@@ -211,10 +206,8 @@ footer h3 {
 
 #footer-info,
 #directions {
-
     justify-content: space-evenly;
     text-align: center;
-
 }
 
 #directions h3 {
@@ -223,7 +216,6 @@ footer h3 {
 
 #footer-info h3,
 #directions h3 {
-
     text-transform: uppercase;
 }
 
@@ -235,7 +227,6 @@ footer h3 {
     background: url("../images/contactus.png") no-repeat center center/cover;
     position: relative;
     width: 100%;
-
 }
 
 #contact-form {
@@ -259,6 +250,7 @@ h2 {
 }
 
 /* Outer container styling */
+
 .outside-container {
     border-radius: 5px;
     background-color: #0F53A9;
@@ -280,10 +272,7 @@ textarea {
 }
 
 label {
-
     text-shadow: 0.5px 0.5px #0c0c0c;
-
-
 }
 
 .label {
@@ -293,14 +282,11 @@ label {
     font-size: 1.2rem;
 }
 
-
 .row::after {
     content: "";
     display: table;
     clear: both;
 }
-
-
 
 /* Submit button */
 
@@ -316,9 +302,7 @@ input[type=submit] {
     float: right;
     font-size: 20px;
     font-weight: 700;
-
 }
-
 
 /* Services Page */
 
@@ -326,7 +310,6 @@ input[type=submit] {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .services-header {
@@ -335,31 +318,25 @@ input[type=submit] {
     padding: 10px 0px;
 }
 
-
-
 .picture img {
-
-    max-width: 350px;
-
+    max-width: 320px;
 }
 
 .services-list {
-
-    max-width: 350px;
+    max-width: 320px;
     text-transform: capitalize;
     font-size: 1.2rem;
-
 }
 
-
 /* Media query: narrow screens (334px and below) */
+
 @media screen and (max-width: 334px) {
+
     /* padding so main content is pushed under header - header logo text wraps onto second line at 334px so more padding required */
     main {
     padding-top: 80px;
     }
 }
-
 
 /* Media query: tablets and larger (600px and up) */
 @media screen and (min-width: 600px) {
@@ -375,9 +352,6 @@ input[type=submit] {
         width: 75%;
         margin-top: 3px;
     }
-
-
-
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -395,25 +369,19 @@ input[type=submit] {
 
     #links-menu {
         display: flex;
-
     }
 
     #links-menu>li {
         padding-left: 3rem;
     }
 
-
     .nav-toggle-label {
         display: none;
     }
 
-
     main {
-
         padding-top: 69px;
-
     }
-
 
     #footer-info {
         display: flex;
@@ -424,7 +392,6 @@ input[type=submit] {
 
     .footer-cols {
         width: 33%;
-
     }
 
     /* Styling of logo text wider when screen wider*/
@@ -433,7 +400,6 @@ input[type=submit] {
         text-decoration: none;
         text-shadow: 0.5px 0.5px #0c0c0c;
         font-size: 2rem;
-
     }
 
     /* Styling of contact us box heading when screen wider*/
@@ -445,13 +411,12 @@ input[type=submit] {
         text-shadow: 0.5px 0.5px #0c0c0c;
         padding-bottom: 8px;
         font-size: 1.8rem;
-
-
     }
 
      /* hero section */
 
     /* Uses alternative larger image with more content on larger screens */
+
   #heropic {
         height: 350px;
         width: 100%;
@@ -459,11 +424,10 @@ input[type=submit] {
         position: relative;
         object-fit: contain;
     }
-
-
 }
 
 /* Media query: tablets and larger (968px and up) */
+
 @media screen and (min-width: 968px) {
     /* hero section */
 
@@ -476,12 +440,11 @@ input[type=submit] {
         position: relative;
         object-fit: contain;
     }
+
     #logo-text {
         color: #ffffff;
         text-decoration: none;
         text-shadow: 0.5px 0.5px #0c0c0c;
         font-size: 2.5rem;
-
     }
-
 }
