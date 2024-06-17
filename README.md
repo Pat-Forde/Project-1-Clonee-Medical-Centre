@@ -17,10 +17,19 @@ This site will provide an overview of relevant information that a new or existin
 ## Design and colour scheme
 
 The site uses Blue as a main colour. Blue was chosen due to this colour being typically associated with credibility, trust, knowledge, power, professionalism, cleanliness, calm and focus. Because all of these qualities are valued in the medical community, blue is generally an ideal choice for medical communities and websites. My initial idea was to take Clonee Medical Centers existing logo and use the colours from this as a palette for the site using a clear white background with navigation bars, header backgrounds etc being the logo colour. However lighthouse testing gave this scheme a poor accessibillity mark so the main colour was changed to a darker shade of blue. 
+
 Original:  
 ![Original Colour Scheme](assets/images/readme-images/original-colour-scheme.png)  
 Final:  
 ![Final Colour Scheme](assets/images/readme-images/final-colour-scheme.png)
+
+The site was designed as a source of quick information and contact for new and existing clients. After discussing the needs of the business with the practice manager and doctor, the basic structure settled on was:
+
++ Uniform header and footer across all pages.
++ Footer to include directions and contact information.
++ Main page to clearly display the answers to the most commonly asked queries by new and existing patients.
++ A separate contact page for patient queries.
++ A separate services page listing current services offered by the practice.
 
 ## Features
 
@@ -45,7 +54,7 @@ This bright and eyecatching image incorporates the existing logo for Clonee Medi
 
 + Designed using Flex so that the boxes are responsive and stack up on each other as screen size narrows. 
 + Icons from font awesome used to add visual appeal.
-+ This section provides the answers to the main questions that Clonee Medical Center recieve over the phone every day.
++ This section provides the answers to the main questions that Clonee Medical Center receive over the phone every day.
 
 #### Footer
 ![Footer](assets/images/readme-images/footer.png)
@@ -75,14 +84,17 @@ I chose a picture from pexels.com of a doctors contact form and added the text o
 
 ![Services](assets/images/readme-images/services.png)
 
-A page listing the main current services offered by Clonee Medical Center. Image of a sick teddy bear used to convey a caring light touch. 
+A page listing the main current services offered by Clonee Medical Center. 
 
-Same hero picture used here as on main page as it fits equally well and is consistent.
++ Same hero picture used here as on main page as it fits equally well and is consistent.
++ Image of a sick teddy bear used to convey a caring light touch. 
++ Services listed in site colour scheme.
++ On mobiles and narrower screens image stacks on top of services list.
 
 
 
 
-# Future development
+## Future development
 
 I would add the following to future deployments:
 + Repcaptcha or similar to contact form to reduce risk of spam returns. This would require javascript not in the scope of the current project.
@@ -91,7 +103,7 @@ I would add the following to future deployments:
 + I would add a facility to pay online for appointments, repeat prescriptions etc.
 
 
-# Deployment
+## Deployment
 
 > To deploy the project I followed the steps below starting from the [main project repository](https://github.com/Pat-Forde/Project-1-Clonee-Medical-Centre).
 
@@ -104,17 +116,17 @@ I would add the following to future deployments:
   The project was then deployed.
   
 
-# Testing
+## Testing
 
   **Links and user inputs**
   | Test |Outcome  |
   |--|--|
   |All links in naviagation bar lead to their correct pages.| Pass  |
-  |Phone numbers are active linnks which call up dialer program on device.| Pass |
+  |Phone numbers are active links which call up dialer program on device.| Pass |
   |Facebook link in footer opens new window and correct page. | Pass |
   |Contact form submits when all criteria is filled correctly.| Pass |
   |User is prevented from submitting the form without correct elements present. | Pass |
-  |Form Validation presents when incorrect input type is entered |Pass|
+  |Form validation presents when incorrect input type is entered |Pass|
 
   **Responsiveness**
   | Test |Outcome  |
@@ -123,14 +135,8 @@ I would add the following to future deployments:
   |Home page, contact us and services pages display correctly on tablet 768px wide| Pass |
   |Home page, contact us and services pages display correctly on laptop 1280px wide| Pass |
   |Home page, contact us and services pages display correctly on desktop 1600px wide| Pass |
+  |Home page and contact us page hero image swaps to alternate image on wider screens | Pass |
 
-
-## Site Testing
-
-A comprehensive site test was undertaken.
-+ All links checked and working correctly.
-+ All pages viewed using chromes developer tools in fully resposnsive mode. All pages behaved as expected with flex and media queries working well to amend output depending on screen size.
-+ Contact us form correctly collects information and currently delivers to code institutes form dump page.
 
 ## Validation Testing 
 W3.org validator contact us page missing div closing tag - Fixed  
@@ -161,7 +167,7 @@ All pages now pass HTML and CSS Validation:
 
   ### Performance
 
-  All pages score between 95% - 98%% each time the performance test has been undertaken. Changing the format of some of the images would bring this to 100%.
+  All pages score between 92% - 98%% each time the performance test has been undertaken. Changing the format of some of the images would bring this to 100%.
 
   ### Accessibillity
 
@@ -181,11 +187,11 @@ All pages now pass HTML and CSS Validation:
 + Contact form overflowing into header and footer - Fixed  
 + Image not displaying on services page  - Fixed
 + Header menu bar was not displaying properly on full screens. Originally I had gotten around this by styling a fixed width       header of 47% for larger screens. After a lot of testing and comparing with the love running project I realised that I had an error where I had allocated an ID to the nav bar itself rather than to the UL, and when the site was not acting as expected had made multiple alterations to the code to get it to display as I wanted. Header css was rewritten - Fixed
-+ Header was wrapping onto a new line at exactly 768px but not at 769px and above (768px wide is a media query change on the site) Adjusted header text size very slightly to resolved. - FIXED
++ Header was wrapping onto a new line at exactly 768px but not at 769px and above (768px wide is a media query break point on the site) Adjusted header text size very slightly to resolve. - FIXED
 
 # Credits
 
-+ Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre.  
++ Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre. 
 + Contact us page picture - modified from a picture sourced from pexels.com.  
 + Used technique learned from W3 schools to fix bug where the contact us form was overflowing into the header and footer.  
 + Nav bar uses a technique from Code Institutes love running project.
