@@ -16,8 +16,7 @@ This site will provide an overview of relevant information that a new or existin
 
 ## Design and colour scheme
 
-My initial idea was to take Clonee Medical Centers existing logo and use the colours from this as a pallet for the site using a clear white background with navigation bars, header backgrounds etc being the logo colour. However lighthouse testing gave this scheme a poor accessibillity mark so the main colour was changed to a darker shade of blue. 
-
+The site uses Blue as a main colour. Blue was chosen due to this colour being typically associated with credibility, trust, knowledge, power, professionalism, cleanliness, calm and focus. Because all of these qualities are valued in the medical community, blue is generally an ideal choice for medical communities and websites. My initial idea was to take Clonee Medical Centers existing logo and use the colours from this as a palette for the site using a clear white background with navigation bars, header backgrounds etc being the logo colour. However lighthouse testing gave this scheme a poor accessibillity mark so the main colour was changed to a darker shade of blue. 
 Original:  
 ![Original Colour Scheme](assets/images/readme-images/original-colour-scheme.png)  
 Final:  
@@ -88,9 +87,43 @@ Same hero picture used here as on main page as it fits equally well and is consi
 I would add the following to future deployments:
 + Repcaptcha or similar to contact form to reduce risk of spam returns. This would require javascript not in the scope of the current project.
 + Google map currently uses an iframe from maps.ie which is giving a warning for third party cookies when checked using Lighthouse. I would amend this to use Googlemaps API.
++ The contact form currently returns to a form dump page hosted by Code Institute. I would amend this to a confirmation page and have the form data sent by email to Clonee Medical Centre.
++ I would add a facility to pay online for appointments, repeat prescriptions etc.
 
+
+# Deployment
+
+> To deploy the project I followed the steps below starting from the [main project repository](https://github.com/Pat-Forde/Project-1-Clonee-Medical-Centre).
+
+ 1. Clicked on `Settings` on the navigation menu in the repository
+ 2. I then selected the `Pages` menu on the side bar.
+ 3. In the first dropdown menu labeled `Source` I selected the branch of the name `main` from the dropdown.
+ 4. In the next dropdown labeled `/root` I left as the default option.
+ 5. Selected Save
+ 
+  The project was then deployed.
+  
 
 # Testing
+
+  **Links and user inputs**
+  | Test |Outcome  |
+  |--|--|
+  |All links in naviagation bar lead to their correct pages.| Pass  |
+  |Phone numbers are active linnks which call up dialer program on device.| Pass |
+  |Facebook link in footer opens new window and correct page. | Pass |
+  |Contact form submits when all criteria is filled correctly.| Pass |
+  |User is prevented from submitting the form without correct elements present. | Pass |
+  |Form Validation presents when incorrect input type is entered |Pass|
+
+  **Responsiveness**
+  | Test |Outcome  |
+  |--|--|
+  |Home page, contact us and services pages display correctly on mobile device 320px wide| Pass |
+  |Home page, contact us and services pages display correctly on tablet 768px wide| Pass |
+  |Home page, contact us and services pages display correctly on laptop 1280px wide| Pass |
+  |Home page, contact us and services pages display correctly on desktop 1600px wide| Pass |
+
 
 ## Site Testing
 
@@ -107,46 +140,59 @@ All pages now pass HTML and CSS Validation:
 
 - HTML
   - No errors as per W3C Validator  
-  Home Page: [W3C validator Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Findex.html)  
-  Contact Us Page: [W3C validator Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fcontactus.html)  
+    ![](assets/images/readme-images/indexvalidation.png)
+  Home Page: [W3C validator Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Findex.html)
+
+    ![](assets/images/readme-images/contactusvalidation.png)  
+  Contact Us Page: [W3C validator Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fcontactus.html) 
+
+    ![](assets/images/readme-images/servicesvalidation.png) 
   Services Page: [W3C validator Services Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fservices.html)  
 
 - CSS
-  - No errors as per [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors as per W3C CSS Jigsaw Validator
+  ![](assets/images/readme-images/cssvalidation.png)
+   [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpat-forde.github.io%2FProject-1-Clonee-Medical-Centre%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 ## Lighthouse Testing
 
-### Performance
+![](assets/images/readme-images/lighthouse.png)
 
-All pages score between 95% - 98%% each time the performance test has been undertaken. Changing the format of some of the images would bring this to 100%.
+  ### Performance
 
-### Accessibillity
+  All pages score between 95% - 98%% each time the performance test has been undertaken. Changing the format of some of the images would bring this to 100%.
 
-The initial lighthouse accessibillity score was in the low 80s and identified that the colour scheme used did not contrast enough. As a result I changed the colour scheme to a darker shade of blue. Lighthouse also identified a missing title in the google map iframe which I added. Added non displayed headers in the hero pics sections as non identified sections were flagged as bringing the score down  Lastly lighthouse suggested an issue with the order on the page of h1,h2 headers etc which was also amended to give a 100% score. 
+  ### Accessibillity
 
-### SEO Optimisation
+  The initial lighthouse accessibillity score was in the low 80s and identified that the colour scheme used did not contrast enough. As a result I changed the colour scheme to a darker shade of blue. Lighthouse also identified a missing title in the google map iframe which I added. I also added non displayed headers in the hero pics sections as non identified sections were flagged as bringing the score down  Lastly lighthouse suggested an issue with the order on the page of h1,h2 headers etc which was also amended to give a 100% score. 
 
-All pages were missing a meta description. Added to achieve 100% SEO score.
+  ### SEO Optimisation
 
-### Best Practices
+  All pages were missing a meta description. Added to achieve 100% SEO score.
 
-Best practices score is marked down to 78% due to the presence of third party cookies in the google maps iframe. This can be resolved by replacing the iframe with googles own API which uses javascript that is beyond the scope of this project. 
+  ### Best Practices
+
+  Best practices score is marked down to 78% due to the presence of third party cookies in the google maps iframe. This can be resolved by replacing the iframe with googles own API which uses javascript that is beyond the scope of this project. 
 
 
 # Bugs 
 
 + Contact form overflowing into header and footer - Fixed  
 + Image not displaying on services page  - Fixed
-+ Header menu bar was not displaying properly on full screens. Originally I had gotten around this by styling a fixed width header of 47% for larger screens. After a lot of testing and comparing with the love running project I realised that I had an error where I had allocated an ID to the nav bar itself rather than to the UL, and when the site was not acting as expected had made multiple alterations to the code to get it to display as I wanted. Header css was rewritten - Fixed 
++ Header menu bar was not displaying properly on full screens. Originally I had gotten around this by styling a fixed width       header of 47% for larger screens. After a lot of testing and comparing with the love running project I realised that I had an error where I had allocated an ID to the nav bar itself rather than to the UL, and when the site was not acting as expected had made multiple alterations to the code to get it to display as I wanted. Header css was rewritten - Fixed
++ Header was wrapping onto a new line at exactly 768px but not at 769px and above (768px wide is a media query change on the site) Adjusted header text size very slightly to resolved. - FIXED
 
 # Credits
 
-Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre.  
-Contact us page picture - modified from a picture sourced from pexels.com.  
-Used technique learned from W3 schools to fix bug where the contact us form was overflowing into the header and footer.  
-Nav bar uses a technique from Code Institutes love running project.
-Icons sourced from FontAwesome.
-Font supplied by Google Fonts
++ Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre.  
++ Contact us page picture - modified from a picture sourced from pexels.com.  
++ Used technique learned from W3 schools to fix bug where the contact us form was overflowing into the header and footer.  
++ Nav bar uses a technique from Code Institutes love running project.
++ Icons sourced from FontAwesome.
++ Font supplied by Google Fonts
 
 
+# Thank You
+  
+  A huge thank you to my Code Institute mentor Alan Bushell for his patience, guidance, support, encouragement and overall mentorship during this project.
