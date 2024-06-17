@@ -3,12 +3,15 @@
 
 # Clonee Medical Centre
 
-This website is designed for a real world doctors practice based in Clonee Co. Meath. 
+This website is designed for a real world doctors practice based in Clonee Co. Meath. They currently have no web presence other than a Facebook page. I decided to build a website for this practice.
 
 ![Clonee Medical Centre](assets/images/readme-images/responsivescreenshots.png)
 
+## **[Live site](https://pat-forde.github.io/Project-1-Clonee-Medical-Centre/index.html)**
 
-They currently have no web presence other than a Facebook page. I decided to build a website for this practice.
+
+## **[Repository](https://github.com/Pat-Forde/Project-1-Clonee-Medical-Centre)**
+
 
 ## UX Benefits
 
@@ -91,21 +94,9 @@ A page listing the main current services offered by Clonee Medical Center.
 + Services listed in site colour scheme.
 + On mobiles and narrower screens image stacks on top of services list.
 
-
-
-
-## Future development
-
-I would add the following to future deployments:
-+ Repcaptcha or similar to contact form to reduce risk of spam returns. This would require javascript not in the scope of the current project.
-+ Google map currently uses an iframe from maps.ie which is giving a warning for third party cookies when checked using Lighthouse. I would amend this to use Googlemaps API.
-+ The contact form currently returns to a form dump page hosted by Code Institute. I would amend this to a confirmation page and have the form data sent by email to Clonee Medical Centre.
-+ I would add a facility to pay online for appointments, repeat prescriptions etc.
-
-
 ## Deployment
 
-> To deploy the project I followed the steps below starting from the [main project repository](https://github.com/Pat-Forde/Project-1-Clonee-Medical-Centre).
+To deploy the project I followed the steps below starting from the [main project repository](https://github.com/Pat-Forde/Project-1-Clonee-Medical-Centre).
 
  1. Clicked on `Settings` on the navigation menu in the repository
  2. I then selected the `Pages` menu on the side bar.
@@ -189,6 +180,17 @@ All pages now pass HTML and CSS Validation:
 + Header menu bar was not displaying properly on full screens. Originally I had gotten around this by styling a fixed width       header of 47% for larger screens. After a lot of testing and comparing with the love running project I realised that I had an error where I had allocated an ID to the nav bar itself rather than to the UL, and when the site was not acting as expected had made multiple alterations to the code to get it to display as I wanted. Header css was rewritten - Fixed
 + Header was wrapping onto a new line at exactly 768px but not at 769px and above (768px wide is a media query break point on the site) Adjusted header text size very slightly to resolve. - FIXED
 
+## Future development
+
+I would add the following to future deployments:
++ Repcaptcha or similar to contact form to reduce risk of spam returns. This would require javascript not in the scope of the current project.
++ Google map currently uses an iframe from maps.ie which is giving a warning for third party cookies when checked using Lighthouse. I would amend this to use Googlemaps API.
++ The contact form currently returns to a form dump page hosted by Code Institute. I would amend this to a confirmation page and have the form data sent by email to Clonee Medical Centre.
++ A facility to pay online for appointments, repeat prescriptions etc.
++ Services page services list would expand on click with further information on each service.
++ Profiles of Doctor and practice staff.
+
+
 # Credits
 
 + Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre. 
@@ -197,6 +199,7 @@ All pages now pass HTML and CSS Validation:
 + Nav bar uses a technique from Code Institutes love running project.
 + Icons sourced from FontAwesome.
 + Font supplied by Google Fonts
++ Further learning and support from Code Institute Slack Channels, Stackoverflow.com, Flexboxfroggy.com, 
 
 
 # Thank You
