@@ -173,7 +173,7 @@ All pages now pass HTML and CSS Validation:
   Best practices score is marked down to 78% due to the presence of third party cookies in the google maps iframe. This can be resolved by replacing the iframe with googles own API which uses javascript that is beyond the scope of this project. 
 
 
-# Bugs 
+## Bugs 
 
 + Contact form overflowing into header and footer - Fixed  
 + Image not displaying on services page  - Fixed
@@ -191,7 +191,7 @@ I would add the following to future deployments:
 + Profiles of Doctor and practice staff.
 
 
-# Credits
+## Credits
 
 + Main page picture made from picture sourced from pexels.com blended with actual logo of Clonee Medical Centre. 
 + Contact us page picture - modified from a picture sourced from pexels.com.  
@@ -202,6 +202,6 @@ I would add the following to future deployments:
 + Further learning and support from Code Institute Slack Channels, Stackoverflow.com, Flexboxfroggy.com, 
 
 
-# Thank You
+## Thank You
   
   A huge thank you to my Code Institute mentor Alan Bushell for his patience, guidance, support, encouragement and overall mentorship during this project.
