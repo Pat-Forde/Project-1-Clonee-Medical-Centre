@@ -342,6 +342,17 @@ input[type=submit] {
     list-style-type: none;
 }
 
+/* Form Submitted Page */
+
+#form-submitted  {
+    padding-top: 25px;
+    text-align: center;
+    color: #0F53A9;
+}
+
+#form-submitted h2 {
+    color: #0F53A9;
+}
 /* Media query: narrow screens (334px and below) */
 
 @media screen and (max-width: 334px) {
@@ -481,6 +492,19 @@ input[type=submit] {
     .picture img {
         max-width: 580px;
         margin-top: -5px;
+    }
+}
+
+/* Media query: tablets and larger (1500px and up) */
+@media screen and (min-width: 1500px) {
+     /* Uses alternative larger image with more content and height on even larger screens */
+
+     #heropic {
+        height: 650px;
+        width: 100%;
+        background: url("../images/doctorheroimage.png") no-repeat center center/cover;
+        position: relative;
+        object-fit: fill;
     }
 }
 
