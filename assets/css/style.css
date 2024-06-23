@@ -475,7 +475,7 @@ input[type=submit] {
     /* Uses alternative larger image with more content and height on larger screens */
 
     #heropic {
-        height: 460px;
+        height: 480px;
         width: 100%;
         background: url("../images/doctorheroimage.png") no-repeat center center/cover;
         position: relative;
@@ -495,8 +495,8 @@ input[type=submit] {
     }
 }
 
-/* Media query: tablets and larger (1500px and up) */
-@media screen and (min-width: 1500px) {
+/* Media query: tablets and larger (1900px and up) */
+@media screen and (min-width: 1900px) {
      /* Uses alternative larger image with more content and height on even larger screens */
 
      #heropic {
@@ -504,7 +504,7 @@ input[type=submit] {
         width: 100%;
         background: url("../images/doctorheroimage.png") no-repeat center center/cover;
         position: relative;
-        object-fit: fill;
+        object-fit: contain;
     }
 }
 
