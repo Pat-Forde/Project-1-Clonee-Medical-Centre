@@ -181,16 +181,16 @@ All pages now pass HTML and CSS Validation:
 
 ## Lighthouse Testing
 
-  **index.html**
+  **index.html**  
 ![](assets/images/readme-images/index-lighthouse.png)
 
-  **contact.html**
+  **contact.html**  
 ![](assets/images/readme-images/contact-lighthouse.png)
 
-  **services.html**
+  **services.html**  
 ![](assets/images/readme-images/services-lighthouse.png)
 
-  **submitted.html**
+  **submitted.html**  
 ![](assets/images/readme-images/submitted-lighthouse.png)
 
   ### Performance
