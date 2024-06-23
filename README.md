@@ -21,18 +21,18 @@ I discussed the needs of the business with the practice manager and doctor. From
 ### User Stories
 
 ### User
-> As a user and prospective new patient I want to be able to find a doctor in my local area.
-> As a user and prospective new patient I want to be able to see the location of the center and get directions.
-> As a user and prospective new patient I want to be able to find out if the center is taking on new patients and the services that the center provides.
-> As a user I want to be able to contact the center online.  
-> As a user I want to be able to find out when the center is open.
++ As a user and prospective new patient I want to be able to find a doctor in my local area.
++ As a user and prospective new patient I want to be able to see the location of the center and get directions.
++ As a user and prospective new patient I want to be able to find out if the center is taking on new patients and the services that the center provides.
++ As a user I want to be able to contact the center online.  
++ As a user I want to be able to find out when the center is open.
 
 
 ### Business Owner
-> As the site owner I want to be able to showcase my practice to prospective patients.
-> As the site owner I want to show the user my opening hours.  
-> As the site owner I want to provide a source of quick information to benefit new and existing patients.
-> As the site owner I want to reduce the workload of the practice manager and reception staff.
++ As the site owner I want to be able to showcase my practice and services to prospective patients.
++ As the site owner I want to show the user my opening hours.  
++ As the site owner I want to provide a source of quick information to benefit new and existing patients.
++ As the site owner I want to reduce the workload of the practice manager and reception staff.
    
 ### Design
 
