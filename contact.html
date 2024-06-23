@@ -74,14 +74,14 @@
                     <div class="row">
                         <div class="label"><label for="phone-number">Phone Number</label></div>
                         <!--Check to validate phone number, begin with 0 then between 6 and 9 numbers after-->
-                        <div class="input-content"><input type="tel" name="phone-number" id="phone-number"
+                        <div class="input-content"><input type="tel" name="phone-number" id="phone-number" required
                                 class="number-input" pattern="[0][0-9]{6,9}$" title ="Please enter a valid phone number beginning with 0 and containing no spaces">
                         </div>
                         <!--Email Address-->
                         <div class="row">
                             <div class="label"><label for="email-address">Email</label></div>
                             <div class="input-content"><input type="email" name="email_address" id="email-address"
-                                    class="text-input" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title = "Please enter a valid email address"></div>
+                                    class="text-input" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-z]{2,}$" title = "Please enter a valid email address"></div>
                         </div>
                         <!--Long Message-->
                         <div class="row">
