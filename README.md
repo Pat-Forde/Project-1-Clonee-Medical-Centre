@@ -195,7 +195,7 @@ All pages now pass HTML and CSS Validation:
 
   ### Performance
 
-  All pages score between 92% - 98%% each time the performance test has been undertaken. Changing the format of some of the images would bring this to 100%.
+  All pages score between 92% - 99%% each time the performance test has been undertaken. Changing the format of some of the images would bring this to 100%.
 
   ### Accessibillity
 
@@ -222,7 +222,7 @@ All pages now pass HTML and CSS Validation:
 I would add the following to future deployments:
 + Repcaptcha or similar to contact form to reduce risk of spam returns. This would require javascript not in the scope of the current project.
 + Google map currently uses an iframe from maps.ie which is giving a warning for third party cookies when checked using Lighthouse. I would amend this to use Googlemaps API.
-+ The contact form currently returns to a form dump page hosted by Code Institute. I would amend this to a confirmation page and have the form data sent by email to Clonee Medical Centre.
++ The contact form currently solely returns to a form submitted page for the beneift of user experience in this project. I would amend this to have the form data process properly which again would use learning and technologies not in the scope of this project.
 + A facility to pay online for appointments, repeat prescriptions etc.
 + Services page services list would expand on click with further information on each service.
 + Profiles of Doctor and practice staff.
@@ -236,7 +236,7 @@ I would add the following to future deployments:
 + Nav bar uses a technique from Code Institutes love running project.
 + Icons sourced from FontAwesome.
 + Font supplied by Google Fonts
-+ Further learning and support from Code Institute Slack Channels, Stackoverflow.com, Flexboxfroggy.com, 
++ Further learning and support from Code Institute Slack Channels, Stackoverflow.com, Flexboxfroggy.com. 
 
 
 ## Thank You
