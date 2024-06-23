@@ -80,7 +80,13 @@ I chose a picture from pexels.com of a doctors contact form and added the text o
 ![Contact Us Form](assets/images/readme-images/contact-form.png)
 
 + Uses flex so that the form stacks on itself on narrower devices.
-+ Currently the form sends the user to a code institute confirmation page to confirm form submission. 
++ For the benefit of the user experience of this project the form redirects users to a form submitted / thank you page. Form processing is currently beyond the scope of this project. However, the form was tested and confirmed to be collecting data as expected using form institutes form dump webpage. Form processing functionallity would be added prior to real world deployment.
+
+![Contact Us Form](assets/images/readme-images/before-submission.png)
+
+![Contact Us Form](assets/images/readme-images/after-submission.png)
+
+![Contact Us Form](assets/images/readme-images/submitted.png)
 
 ### services.html
 #### Services section
@@ -154,7 +160,17 @@ All pages now pass HTML and CSS Validation:
 
 ## Lighthouse Testing
 
-![](assets/images/readme-images/lighthouse.png)
+  **index.html**
+![](assets/images/readme-images/index-lighthouse.png)
+
+  **contact.html**
+![](assets/images/readme-images/contact-lighthouse.png)
+
+  **services.html**
+![](assets/images/readme-images/services-lighthouse.png)
+
+  **submitted.html**
+![](assets/images/readme-images/submitted-lighthouse.png)
 
   ### Performance
 
