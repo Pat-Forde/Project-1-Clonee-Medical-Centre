@@ -101,7 +101,7 @@ I chose a picture from pexels.com of a doctors contact form and added the text o
 ![Contact Us Form](assets/images/readme-images/contact-form.png)
 
 + Uses flex so that the form stacks on itself on narrower devices.
-+ For the benefit of the user experience of this project the form redirects users to a form submitted / thank you page. Form processing is currently beyond the scope of this project. However, the form was tested and confirmed to be collecting data as expected using form institutes form dump webpage. Form processing functionallity would be added prior to real world deployment.
++ For the benefit of the user experience of this project the form redirects users to a form submitted / thank you page. Full form processing is currently beyond the scope of this project. However, the form was tested and confirmed to be collecting data as expected using Code Institutes form dump webpage as pictured below. Form processing functionallity would be added prior to real world deployment.
 
 **Before submission:**  
 ![Before Submission](assets/images/readme-images/before-submission.png)  
