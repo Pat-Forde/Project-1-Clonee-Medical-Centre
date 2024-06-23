@@ -12,12 +12,39 @@ This website is designed for a real world doctors practice based in Clonee Co. M
 
 ## **[Repository](https://github.com/Pat-Forde/Project-1-Clonee-Medical-Centre)**
 
+## UX 
 
-## UX Benefits
+### Pre Project
 
-This site will provide an overview of relevant information that a new or existing client may look for as well as a contact avenue for out of hours queries. This will save time, both for the patient and for the surgery whilst cutting down on admin time spent answering phones for simple queries.
+I discussed the needs of the business with the practice manager and doctor. From these discussions I was able to determine the main user and business needs. The site needs to provide an overview of relevant information that a new or existing client may look for as well as a contact avenue for out of hours queries. This will save time, both for the patient and for the surgery whilst cutting down on admin time spent answering phones for simple queries.
 
-## Design and colour scheme
+### User Stories
+
+### User
+> As a user and prospective new patient I want to be able to find a doctor in my local area.
+> As a user and prospective new patient I want to be able to see the location of the center and get directions.
+> As a user and prospective new patient I want to be able to find out if the center is taking on new patients and the services that the center provides.
+> As a user I want to be able to contact the center online.  
+> As a user I want to be able to find out when the center is open.
+
+
+### Business Owner
+> As the site owner I want to be able to showcase my practice to prospective patients.
+> As the site owner I want to show the user my opening hours.  
+> As the site owner I want to provide a source of quick information to benefit new and existing patients.
+> As the site owner I want to reduce the workload of the practice manager and reception staff.
+   
+### Design
+
+I decided the best way to achieve the overall UX benefits was to incorporate:
+
++ A uniform header and footer across all pages.
++ A footer to include directions and contact information visible on all pages.
++ A main page to clearly display the answers to the most commonly asked queries by new and existing patients.
++ A separate contact page for patient queries.
++ A separate services page listing current services offered by the practice.
+
+### Colour scheme
 
 The site uses Blue as a main colour. Blue was chosen due to this colour being typically associated with credibility, trust, knowledge, power, professionalism, cleanliness, calm and focus. Because all of these qualities are valued in the medical community, blue is generally an ideal choice for medical communities and websites. My initial idea was to take Clonee Medical Centers existing logo and use the colours from this as a palette for the site using a clear white background with navigation bars, header backgrounds etc being the logo colour. However lighthouse testing gave this scheme a poor accessibillity mark so the main colour was changed to a darker shade of blue. 
 
@@ -26,13 +53,7 @@ Original:
 Final:  
 ![Final Colour Scheme](assets/images/readme-images/final-colour-scheme.png)
 
-The site was designed as a source of quick information and contact for new and existing clients. After discussing the needs of the business with the practice manager and doctor, the basic structure settled on was:
 
-+ Uniform header and footer across all pages.
-+ Footer to include directions and contact information.
-+ Main page to clearly display the answers to the most commonly asked queries by new and existing patients.
-+ A separate contact page for patient queries.
-+ A separate services page listing current services offered by the practice.
 
 ## Features
 
